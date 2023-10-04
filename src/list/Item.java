@@ -22,4 +22,13 @@ public class Item {
     public Integer getQuantidade() {
         return quantidade;
     }
+
+    @Override
+    public String toString() {
+        return "{" +
+            "nome='" + nome + '\'' +
+            ", preco=" + preco +
+            ", quantidade=" + quantidade +
+            '}';
+    }
 }
